@@ -64,4 +64,10 @@ def load_api_to_parquet():
 
     load_to_dl(input_directory, output_directory)
 
+    # Convert news JSON files to Parquet
+    input_directory = data_path / "raw" / "news"
+    output_directory = data_path / ".parquet" / "news_to_dl"
+    output_directory.mkdir(parents=True, exist_ok=True)
+    load_to_dl(input_directory, output_directory)
+
 load_api_to_parquet()
