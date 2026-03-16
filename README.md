@@ -47,7 +47,6 @@
 - DAGs
 ![DAG-ELT](https://github.com/nvkhoa14/stock-data-engineering/blob/main/imgs/DAG-ELT.png)
 ### OUTPUT
-- Check data available or not.
-[Check](https://github.com/nvkhoa14/stock-data-engineering/tree/main/notebook/check.ipynb)
+- Check data available or not in [here](https://github.com/nvkhoa14/stock-data-engineering/blob/main/notebook/check.ipynb).
 
-- Analysic
+- Some stock analysic in [here](https://github.com/nvkhoa14/stock-data-engineering/blob/main/notebook/analyse.ipynb).
