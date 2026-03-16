@@ -44,4 +44,4 @@ def crawl_ohlcs():
     print(f"The process of crawling {len(data)} OHLCs was successful")
     print(f"Saving at {path}")
 
-# crawl_ohlcs()
+crawl_ohlcs()
